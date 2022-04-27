@@ -5,7 +5,7 @@ const updateClock = () => {
   const hours = now.getHours();
   let minutes = now.getMinutes();
 
-  minutes = minutes < 10 ? "0" : minutes;
+  minutes = minutes < 10 ? "0" + minutes : minutes;
 
   time.innerHTML = hours + ":" + minutes;
 };
