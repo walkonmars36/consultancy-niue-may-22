@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Roboto:ital,wght@0,400;1,700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -26,30 +26,42 @@ h2 {
   color: #394166;
   font-size: 1.3rem;
   font-weight: 600;
-  margin-top: 1.5em;
+  margin: 2em 0 1em;
 }
 
 h3 {
   margin: 1.5em 0;
 }
 
+span {
+  font-weight: 300;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+strong {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+
+  line-height: 1.5;
+}
 .container {
   margin: auto;
   width: 90%;
-  border: 1px solid green;
 }
 
 .top-bar {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   padding: 1em 0;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  border: 1px solid gray;
 }
 
 .logo {
@@ -63,7 +75,6 @@ h3 {
 }
 
 .icons {
-  border: 1px solid blue;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -83,7 +94,7 @@ button {
   border-radius: 5px;
   padding: 0.75em 0;
   width: 60%;
-  margin-top: 1.5em;
+  margin-top: 3em;
 
   &.login {
     align-self: center;
@@ -98,7 +109,7 @@ button {
 }
 
 footer {
-  margin-top: 3em;
+  margin-top: 5em;
   background-color: #fffcdd;
   padding: 1em;
   font-weight: 700;
@@ -113,5 +124,24 @@ footer {
 }
 
 .time {
-  font-weight: 700;
+  font-weight: 600;
+  color: black;
+}
+
+.penguins {
+  display: flex;
+  align-items: center;
+  margin: 1.5em 0;
+
+  &:nth-child(1) > p {
+    margin-top: 1.2em;
+  }
+
+  &:nth-child(4) > img {
+    margin-right: 1em;
+  }
+
+  & p {
+    text-align: left;
+  }
 }
