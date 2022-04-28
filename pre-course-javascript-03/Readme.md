@@ -1,3 +1,5 @@
+## Pre-course Javascript challenges
+
 1 : Write a function that takes a number and returns true if it is a positive number and false if it is a negative number.
 isNumberPositive(-1); // returns false
 isNumberPositive(10); // returns true
