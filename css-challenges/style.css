@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+/* flags-a */
+
+#flags-a {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 5rem auto;
+}
+
+/* german flag */
+
+.german-black {
+  background-color: black;
+  padding: 3em 0;
+}
+
+.german-red {
+  background-color: red;
+  padding: 3em 0;
+}
+
+.german-yellow {
+  background-color: yellow;
+  padding: 3em 0;
+}
+
+/* hungarian flag */
+
+#hungary-flag {
+  display: none;
+}
+
+.hungary-red {
+  background-color: #cd2a3e;
+  padding: 3em 0;
+}
+
+.hungary-white {
+  background-color: white;
+  padding: 3em 0;
+}
+
+.hungary-green {
+  background-color: #436f4d;
+  padding: 3em 0;
+}
+
+/* flags-a hover rules */
+
+#flags-a:hover #german-flag {
+  display: none;
+}
+
+#flags-a:hover #hungary-flag {
+  display: block;
+}
+
+/* flags-b */
+
+/*  french flag */
+
+#french-flag {
+  display: flex;
+  width: 50%;
+  margin: 5rem auto;
+}
+
+.french-blue {
+  background-color: #0055a4;
+  width: 33.33%;
+  padding: 10em 0;
+}
+
+.french-white {
+  background-color: white;
+  width: 33.33%;
+  padding: 10em 0;
+}
+
+.french-red {
+  background-color: #ef4135;
+  width: 33.33%;
+  padding: 10em 0;
+}
+
+/* Irish flag */
+
+#irish-flag {
+  display: flex;
+  width: 50%;
+  margin: 5rem auto;
+}
+
+#irish-flag {
+  display: none;
+}
+
+.irish-green {
+  background-color: #169b62;
+  width: 33.33%;
+  padding: 10em 0;
+}
+
+.irish-white {
+  background-color: white;
+  width: 33.33%;
+  padding: 10em 0;
+}
+
+.irish-orange {
+  background-color: #ff883e;
+  width: 33.33%;
+  padding: 10em 0;
+}
+
+/* flags-b hover rules */
+
+#flags-b:hover #french-flag {
+  display: none;
+}
+
+#flags-b:hover #irish-flag {
+  display: flex;
+}
