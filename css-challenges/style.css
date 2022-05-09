@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   background-color: lightgray;
@@ -6,28 +7,33 @@
 
 /* flags-a */
 
-#flags-a {
-  display: flex;
-  flex-direction: column;
+#flags-a,
+#flags-b {
   width: 50%;
   margin: 5rem auto;
 }
 
 /* german flag */
 
+#german-flag {
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+}
+
 .german-black {
   background-color: black;
-  padding: 3em 0;
+  height: 33.33%;
 }
 
 .german-red {
   background-color: red;
-  padding: 3em 0;
+  height: 33.33%;
 }
 
 .german-yellow {
   background-color: yellow;
-  padding: 3em 0;
+  height: 33.33%;
 }
 
 /* hungarian flag */
@@ -38,17 +44,17 @@
 
 .hungary-red {
   background-color: #cd2a3e;
-  padding: 3em 0;
+  height: 33.33%;
 }
 
 .hungary-white {
   background-color: white;
-  padding: 3em 0;
+  height: 33.33%;
 }
 
 .hungary-green {
   background-color: #436f4d;
-  padding: 3em 0;
+  height: 33.33%;
 }
 
 /* flags-a hover rules */
@@ -58,7 +64,9 @@
 }
 
 #flags-a:hover #hungary-flag {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
 }
 
 /* flags-b */
@@ -67,35 +75,25 @@
 
 #french-flag {
   display: flex;
-  width: 50%;
-  margin: 5rem auto;
+  height: 25rem;
 }
 
 .french-blue {
   background-color: #0055a4;
   width: 33.33%;
-  padding: 10em 0;
 }
 
 .french-white {
   background-color: white;
   width: 33.33%;
-  padding: 10em 0;
 }
 
 .french-red {
   background-color: #ef4135;
   width: 33.33%;
-  padding: 10em 0;
 }
 
 /* Irish flag */
-
-#irish-flag {
-  display: flex;
-  width: 50%;
-  margin: 5rem auto;
-}
 
 #irish-flag {
   display: none;
@@ -104,19 +102,16 @@
 .irish-green {
   background-color: #169b62;
   width: 33.33%;
-  padding: 10em 0;
 }
 
 .irish-white {
   background-color: white;
   width: 33.33%;
-  padding: 10em 0;
 }
 
 .irish-orange {
   background-color: #ff883e;
   width: 33.33%;
-  padding: 10em 0;
 }
 
 /* flags-b hover rules */
@@ -127,4 +122,30 @@
 
 #flags-b:hover #irish-flag {
   display: flex;
+  height: 25rem;
+}
+
+/* japanese flag */
+
+#japanese-flag {
+  display: flex;
+  justify-items: center;
+  width: 50%;
+  margin: 5rem auto;
+}
+
+.japan-white {
+  background-color: white;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.japan-red {
+  background-color: red;
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
 }
