@@ -9,7 +9,7 @@
 
 #flags-a,
 #flags-b {
-  width: 50%;
+  width: 70%;
   margin: 5rem auto;
 }
 
@@ -130,7 +130,7 @@
 #japanese-flag {
   display: flex;
   justify-items: center;
-  width: 50%;
+  width: 70%;
   margin: 5rem auto;
 }
 
