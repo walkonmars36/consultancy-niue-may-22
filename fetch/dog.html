@@ -14,25 +14,26 @@
 
       .grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding: 50px;
         gap: 25px 50px;
       }
 
-      .quote {
-        background-color: gold;
-        padding: 10px 20px;
+      img {
+        width: 100%;
+        object-fit: contain;
       }
     </style>
   </head>
   <body>
     <header>
       <h1>Fetch</h1>
-      <button id="get-quote-button">Quote me</button>
+      <button id="get-dog-button">Get a Random Dog</button>
+      <button id="get-five-dog-button">Get 5 Random Dogs</button>
     </header>
     <main>
-      <section class="grid" id="quote-container"></section>
+      <section class="grid" id="dog-container"></section>
     </main>
-    <script src="./main.js"></script>
+    <script src="./dog.js"></script>
   </body>
 </html>
