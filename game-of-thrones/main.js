@@ -19,8 +19,8 @@ const createCardHTML = (array) => {
 <div class="character-card"> 
     <h1>${character.firstName}</h1>
     <img class="character-card--image" src=${character.imageUrl} alt="Image of ${character.firstName}">
-    <h2>${character.title}</h2>
-    <h3>${character.family}</h3>
+    <h2>House: ${character.family}</h2>
+    <h3>Family: ${character.title}</h2>
 </div>
           `;
     })

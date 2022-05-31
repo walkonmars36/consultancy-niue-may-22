@@ -22,15 +22,22 @@
   align-items: center;
 }
 
+h1 {
+  font-size: 1rem;
+}
+
+h2 {
+  font-size: 0.75rem;
+}
+
+h3 {
+  font-size: 0.5rem;
+}
+
 @font-face {
   font-family: "GOTR";
   src: url("../assets/Game of Thrones.ttf");
 }
-h1 {
-  font-family: "GOTR";
-  font-size: 1.5rem;
-}
-
 .nav {
   display: flex;
   flex-direction: row;
@@ -45,6 +52,9 @@ h1 {
   display: flex;
   justify-content: space-evenly;
   width: 50vw;
+}
+.nav__title {
+  font-family: "GOTR";
 }
 
 * {
