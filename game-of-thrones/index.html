@@ -4,7 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Game of Thrones - Characters</title>
   </head>
-  <body> </body>
+  <body>
+    <nav class="nav">
+      <div class="nav__search">
+        <label for="search" placeholder="Search..."></label>
+        <input id="search" type="text" />
+      </div>
+      <h1>Game of Thrones</h1>
+
+      <div class="nav__checkboxes">
+        <div>
+          <label for="stark">House Stark</label>
+          <input class="nav__checkbox" type="checkbox" id="stark" />
+        </div>
+
+        <div>
+          <label for="lannister">House Lannister</label>
+          <input class="nav__checkbox" type="checkbox" id="lannister" />
+        </div>
+
+        <div>
+          <label for="targaryen">House Targaryen</label>
+          <input class="nav__checkbox" type="checkbox" id="targaryen" />
+        </div>
+
+        <div>
+          <label for="baratheon">House Baratheon</label>
+          <input class="nav__checkbox" type="checkbox" id="baratheon" />
+        </div>
+      </div>
+    </nav>
+    <main class="character-container"></main>
+    <script src="./main.js" type="module"></script>
+  </body>
 </html>
